@@ -26,7 +26,7 @@ NAND gate is actually a combination of two logic gates i.e. AND gate followed by
 5.Create university program(VWF) for getting timing diagram.
 6.Give the respective inputs for timing diagram and obtain the results.
 ## Program:
-/*
+```python
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: prithviraj
 RegisterNumber:  212222100038
@@ -54,7 +54,7 @@ using NOR:
    assign r=( c & ~b & a);
    assign f=(~(~( p | q | r)));
    endmodule
-*/
+```
 ## RTL realization
 
 ## Output:
